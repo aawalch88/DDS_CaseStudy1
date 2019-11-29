@@ -1,5 +1,5 @@
 ---
-title: "Case Study 1"  
+title: "DDS 6306 : Case Study 1"  
 author: "Suchismita Moharana and Andy Walch"  
 date: "October 11, 2019"
 ---
@@ -7,8 +7,8 @@ date: "October 11, 2019"
 ### Introduction
 In this report, we explore `beers` and `breweries` datasets for the 51 states in the US. The steps and procedures taken in this analysis are stipulated below. We successfully merged the two datasets `Beers` dataset which contains a list of 2410 US craft beers to the `Breweries` dataset containing 558 US breweries.
 
-```{r}
-knitr::opts_chunk$set(echo = TRUE)
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 ```
 
 ```{r}
