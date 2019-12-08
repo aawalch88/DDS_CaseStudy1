@@ -55,9 +55,9 @@ df_breweries_and_beer <- merge(df_beers, df_breweries, by="Brew_ID")
 names(df_breweries_and_beer)[2] <- "BeerName" #changing name.x to BeerName
 names(df_breweries_and_beer)[8] <- "BreweryName" #changing name.y to BreweryName
 
-head(df_breweries_and_beer, 6)
+#head(df_breweries_and_beer, 6)
 
-tail(df_breweries_and_beer, 6)
+#tail(df_breweries_and_beer, 6)
 
 ```
 
